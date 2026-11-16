@@ -8,7 +8,7 @@ export function add(a, b) {
 }
 
 app.get("/", (req, res) => {
-  res.send(`<h1>ITSD 85 BROKEN RELEASE</h1><p>Deployed version: ${version}</p>`);
+  res.send(`<h1>ITSD 85 CI/CD Lab -- Gab </h1><p>Deployed version: ${version}</p>`);
 });
 
 app.get("/health", (req, res) => {
